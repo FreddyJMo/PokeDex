@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Little Pokedex</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Search by name</h1>
+    </div>
+    <input id="pokemon_search" type="text" class="form-control text-primary" placeholder="charizard , pikachu etc">
+    <button id="make_search">Search</button>
+
+    <hr />
+
+    <main class="main-container">
+      <div class="image-container">
+        <h2>Pokémon</h2>
+        <h3 id="pkm_name"></h3>
+        <span id="pkm_id"></span>
+        <div class="pokemon-image">
+          <img id="pkm_image" src="" alt="Pokemon image">
+        </div>
+      </div>
+
+      <div class="data-container">
+        <h4>Type</h4>
+        <ul id="pkm_types"></ul>
+
+        <hr />
+
+        <h4>Stats</h4>
+        <ul>
+          <li>Hp: <span id="pkm_hp"></span></li>
+          <li>Atk: <span id="pkm_atk"></span></li>
+          <li>Def: <span id="pkm_def"></span></li>
+          <li>Sp Atk: <span id="pkm_sp_atk"></span></li>
+          <li>Sp Def: <span id="pkm_sp_def"></span></li>
+          <li>Speed: <span id="pkm_speed"></span></li>
+        </ul>
+
+        <h4>Pokédex Entry</h4>
+        <p id="pkm_pokedex_entry"></p>
+
+        <h4>Abilities</h4>
+        <ul id="pkm_abilities"></ul>
+
+        <h4>Size and weight</h4>
+        <ul>
+          <li>Size: <span id="pkm_height"></span> decimeters</li>
+          <li>Weight: <span id="pkm_weight"></span> hectograms</li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

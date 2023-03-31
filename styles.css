@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+  background-image: url("https://i.redd.it/ux572cwbymba1.gif");
+  background-size: cover;
+  background-position: center 0%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 1.5rem;
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: #283593;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+h2, h3, h4 {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+.main-container {
+  display: flex;
+}
+
+.image-container, .data-container {
+  padding: 20px;
+  margin: 10px;
+}
+
+.image-container {
+  background-color: rgba(255, 255, 255, .85);
+  border-radius: 30px;
+  display: inline-block;
+  max-width: 50%;
+  margin-left: 10%;
+  margin-right: 50px;
+  margin-bottom: 10%;
+  flex: 1;
+}
+
+.data-container {
+  flex: 2;
+  background-color: rgba(255, 255, 255, .85);
+  border-radius: 30px;
+  max-width: 50%;
+  margin-left: 50px;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
